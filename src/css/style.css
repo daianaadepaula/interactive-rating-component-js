@@ -8,4 +8,5 @@ body {
   font-family: "Overpass", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
+  background: var(--neutral-very-dark, #131518);
 }
