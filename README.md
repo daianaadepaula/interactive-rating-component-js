@@ -1,24 +1,12 @@
 # Interactive rating component solution
 
-![Project image](./design/desktop-preview.jpg)
+<div align="center" >
+  <img src="./design/desktop-preview.jpg" alt="Project image" height="400px">
+</div>
 
 ## About the project
 
 This is an interactive rating component card design developed with HTML, CSS and JAVASCRIPT.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Functionalities](#functionalities)
-- [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Installation](#installation)
-  - [Frontend](#frontend)
-- [Author](#author)
-- [License](#license)
-
 
 ## Overview
 
@@ -31,14 +19,18 @@ This is an interactive rating component card design developed with HTML, CSS and
 
 ### Layout mobile
 
-![Project mobile](./design/mobile-design.jpg)
-![Project mobile](./design/mobile-thank-you-state.jpg)
+<div align="center" >
+  <img src="./design/mobile-design.jpg" alt="Project mobile" height="300px">
+  <img src="./design/mobile-thank-you-state.jpg" alt="Project mobile" height="300px">
+</div>
  
 ### Layout web
 
-![Project desktop](./design/desktop-design.jpg)
-![Project desktop](./design/active-states.jpg)
-![Project desktop](./design/desktop-thank-you-state.jpg)
+<div align="center" >
+  <img src="./design/desktop-design.jpg" alt="Project desktop" width="300px">
+  <img src="./design/active-states.jpg" alt="Project desktop" width="300px">
+  <img src="./design/desktop-thank-you-state.jpg" alt="Project desktop" width="300px">
+</div>
 
 ### Links
 
