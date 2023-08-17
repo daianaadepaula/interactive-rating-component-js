@@ -19,6 +19,45 @@
 
 <body>
 
+	<main class="card" data-card>
+
+		<div class="rating-state">
+			<div class="card-icon">
+				<img src="./src/images/icon-star.svg" width="17" height="16" alt="Ícone de estrela">
+			</div>
+			<h3 class="card-title">How did we do?</h3>
+			<p class="card-text">
+				Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+				offering!
+			</p>
+
+			<div class="wrapper">
+				<button class="icon-btn" aria-label="rate 1 star" data-rating-btn>1</button>
+				<button class="icon-btn" aria-label="rate 2 star" data-rating-btn>2</button>
+				<button class="icon-btn" aria-label="rate 3 star" data-rating-btn>3</button>
+				<button class="icon-btn" aria-label="rate 4 star" data-rating-btn>4</button>
+				<button class="icon-btn" aria-label="rate 5 star" data-rating-btn>5</button>
+			</div>
+			<button class="submit-btn" data-submit-btn>Submit</button>
+		</div>
+
+		<div class="rated-state">
+
+			<img src="./src/images/illustration-thank-you.svg" alt="Ilustração de agradecimento" class="card-img">
+
+			<p class="card-subtitle">
+				You selected <span data-rated-value>1</span> out of 5 </p>
+
+			<h3 class="card-title">Thank you!</h3>
+
+			<p class="card-text">
+				We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+				touch!
+			</p>
+
+		</div>
+
+	</main>
 
 	<script src="./src/js/script.js"></script>
 
