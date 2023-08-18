@@ -8,7 +8,7 @@
 }
 
 :root {
-  ----gradient-color: radial-gradient(
+  --gradient-color: radial-gradient(
     circle at top,
     hsla(0, 0%, 100%, 0.05) 0%,
     transparent 80%
@@ -17,14 +17,14 @@
 
 :root {
   --body-font: "Overpass", sans-serif;
-	--fontSize-title: 2.4rem:
-	--fontSize-body: 1.4rem:
-	--font-regular: 400;
+  --fontSize-title: 2.4rem;
+  --fontSize-body: 1.4rem;
+  --font-regular: 400;
   --font-bold: 700;
 }
 
-:root{
-	--radius-pill: 100px;
-	--radius-circle: 50%;
-	--transition: 100ms ease;
+:root {
+  --radius-pill: 100px;
+  --radius-circle: 50%;
+  --transition: 100ms ease;
 }

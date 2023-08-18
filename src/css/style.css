@@ -1,0 +1,112 @@
+.rated-state {
+  display: none;
+}
+
+.card {
+  max-width: 410px;
+  margin-inline: auto;
+  background-color: var(--neutral-dark);
+  background-image: var(--gradient-color);
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--neutral-medium);
+  border-radius: var(--radius-circle);
+  display: grid;
+  place-items: center;
+}
+
+.card-icon img {
+  width: 15px;
+}
+
+.card-title {
+  color: var(--white-color);
+  font-size: var(--fontSize-title);
+  line-height: 1;
+  margin-block: 20px 15px;
+}
+
+.card .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 25px 20px;
+}
+
+.icon-btn {
+  width: 35px;
+  height: 35px;
+  background-color: var(--neutral-medium);
+  border-radius: var(--radius-circle);
+  line-height: 38px;
+  color: var(--neutral-light);
+  transition: var(--transition);
+}
+
+.icon-btn:is(:hover, :focus-visible) {
+  background-color: var(--neutral-light);
+  color: var(--white-color);
+}
+
+.icon-btn.selected {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.submit-btn {
+  height: 45px;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition);
+}
+
+.submit-btn:is(:hover, :focus-visible) {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+.rated .rating-state {
+  display: none;
+}
+
+.rated {
+  padding-block: 30px 25px;
+}
+
+.rated .rated-state {
+  display: block;
+  text-align: center;
+}
+
+.card-img {
+  width: 150px;
+  margin-inline: auto;
+  margin-block-end: 25px;
+}
+
+.card-subtitle {
+  color: var(--primary-color);
+  background-color: var(--neutral-medium);
+  max-width: max-content;
+  border-radius: var(--radius-pill);
+  padding: 10px 16px 8px;
+  line-height: 1;
+  margin-inline: auto;
+}
+
+.card-subtitle span {
+  display: inline;
+}
+
+.rated .card-title {
+  margin-block: 25px 15px;
+}
